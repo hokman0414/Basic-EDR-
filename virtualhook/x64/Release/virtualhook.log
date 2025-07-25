@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  dllmain.cpp
+  logger.cpp
+C:\Users\Calvi\source\repos\EDR\virtualhook\logger.cpp(58,68): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file '/logger.cpp')
+  
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 156 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  virtualhook.vcxproj -> C:\Users\Calvi\source\repos\EDR\x64\Release\virtualhook.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

@@ -1,0 +1,15 @@
+﻿  pch.cpp
+  dllmain.cpp
+  logger.cpp
+C:\Users\Calvi\source\repos\EDR\virtualhook\logger.cpp(58,68): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file '/logger.cpp')
+  
+  Generating Code...
+  libMinHook.x64.lib(hook.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+  virtualhook.vcxproj -> C:\Users\Calvi\source\repos\EDR\x64\Debug\virtualhook.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

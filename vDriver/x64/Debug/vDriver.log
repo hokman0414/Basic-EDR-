@@ -1,0 +1,37 @@
+﻿  Building 'vDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\vDriver.inf
+  Stamping [Version] section with DriverVer=07/25/2025,1.22.20.71
+  kernel.c
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(14,5): warning C4033: 'ApcKernelRoutine' must return a value
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(73,18): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(24,10): warning C4189: 'ProcessName': local variable is initialized but not referenced
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(126,5): warning C4996: 'ExInitializeWorkItem': was declared deprecated
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(129,5): warning C4996: 'ExQueueWorkItem': was declared deprecated
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(257,18): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(307,14): warning C4189: 'status': local variable is initialized but not referenced
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(15,1): warning C4716: 'ApcKernelRoutine': must return a value
+  vDriver.vcxproj -> C:\Users\Calvi\source\repos\EDR\x64\Debug\vDriver.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Calvi\source\repos\EDR\x64\Debug\vDriver.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\Calvi\source\repos\EDR\x64\Debug\vDriver\vdriver.cat
+  Set catalog attribute.
+  WdkVersion: 10.0.26100.0
+  Set catalog attribute.
+  WdkAssemblyVersion: 10.0.26100.4202
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Calvi\source\repos\EDR\x64\Debug\vDriver\vdriver.cat
+  
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

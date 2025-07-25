@@ -1,0 +1,10 @@
+﻿  Building 'vDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\vDriver.inf
+  Stamping [Version] section with DriverVer=07/25/2025,1.20.25.969
+  kernel.c
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(14,5): error C2220: the following warning is treated as an error
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(14,5): warning C4033: 'ApcKernelRoutine' must return a value
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(73,18): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(24,10): warning C4189: 'ProcessName': local variable is initialized but not referenced
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(257,18): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+C:\Users\Calvi\source\repos\EDR\vDriver\kernel.c(307,14): warning C4189: 'status': local variable is initialized but not referenced

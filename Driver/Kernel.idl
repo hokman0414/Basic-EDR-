@@ -1,0 +1,9 @@
+namespace Driver
+{
+    [default_interface]
+    runtimeclass Kernel : Windows.UI.Xaml.Controls.Page
+    {
+        Kernel();
+        Int32 MyProperty;
+    }
+}
