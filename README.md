@@ -5,7 +5,9 @@ I made my own basic EDR implementing API hooking, namedpipes for logging, Kernel
 -test API hooking through LoadLibraryA of virtualhook.DLL
 
 **Agent:**
--Deploys logging with named pipe
+- Deploys Kernel Driver
+
+- Deploys logging with named pipe
 -Deploys Kernel Driver
 -Basically tries to load that vDriver.sys file and save it as a service
 
